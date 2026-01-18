@@ -1,7 +1,16 @@
-# task_tracker
-Sample solution for the [task-tracker](https://roadmap.sh/projects/task-tracker) challenge from roadmap.sh.
+# Task Tracker CLI 🎯
 
-## Task_Tracker is a command-line tool for managing tasks, written in Clojure. It allows users to easily create, list, update, and delete tasks.
+Task Tracker CLI is a command-line tool for managing tasks, written in Clojure. It allows users to easily create, list, update, and delete tasks.
+A simple, lightweight **Task Tracker application** implemented in **Clojure** with a **Command Line Interface (CLI)**. Manage your tasks efficiently with no external dependencies - just Clojure and your terminal!
+
+## ✨ Features
+
+- **📝 Task Management**: Create, update, view, and delete tasks
+- **🏷️ Status Tracking**: Mark tasks as `Todo`, `In-Progress`, or `Done`
+- **💾 Persistent Storage**: Tasks saved to `tasks.json` file automatically
+- **📊 Formatted Output**: Clean table format in terminal
+- **🚀 Simple & Lightweight**: Minimal footprint, maximum productivity
+
 
 ## Installation
 
@@ -30,3 +39,7 @@ lein run
 
 #### List Task as per status
 `` lein run -l "todo" ``
+
+
+Sample solution for the [task-tracker](https://roadmap.sh/projects/task-tracker) challenge from roadmap.sh.
+
